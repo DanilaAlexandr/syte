@@ -1,0 +1,37 @@
+body{
+
+}
+header{
+	display: grid;
+	border: 1px solid red;
+	width: 1152px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+header nav ul {
+
+	text-decoration: none;
+	list-style: none;
+}
+header nav ul{
+list-style:none;
+padding:0;
+display:grid;
+grid-template-columns:repeat(8,1fr);
+}
+
+section{
+	display: grid;
+	border: 1px solid red;
+	width: 1152px;
+	height: 550px;
+	margin: 0 auto;
+}
+footer{
+	display: grid;
+	border: 1px solid red;
+	width: 1152px;
+	height: 200px;
+	margin: 0 auto;
+}
