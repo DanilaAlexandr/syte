@@ -188,12 +188,130 @@ color: #FFAA01;
 z-index: -5;
 }
 
+section#clothes{
+	height: 800px;
+}
+#clothes1{
+position: absolute;
+width: 500px;
+height: 590px;
+left: 98px;
+z-index: -1;
+top: 1690px;
 
+}
+#clothes2{
+position: absolute;
+width: 500px;
+height: 590px;
+left: 700px;
+top: 1600px;
+z-index: -1;
 
+}
+#headclothes{
+position: absolute;
+width: 1087px;
+height: 176px;
+left: -34px;
+top: 1510px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 88px;
+text-align: center;
+letter-spacing: 0.115em;
+white-space: pre;
+color: #000000;
 
+}
+#clothestext1{
+		position: absolute;
+	width: 168px;
+	height: 43px;
+	left: 110px;
+	top: 2115px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 43px;
+	text-align: center;
+	letter-spacing: 0.115em;
+	color: #000000;
+}
+#clothestext2{
+		position: absolute;
+	width: 149px;
+	height: 43px;
+	left: 730px;
+	top: 2025px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 43px;
+	text-align: center;
+	letter-spacing: 0.115em;
+	color: #000000;
+}
+#sign-up-button3{
+		position: absolute;
+	width: 131px;
+	height: 65px;
+	left: 129px;
+	top: 2200px;
+	background: rgba(203, 203, 203, 0.33);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 100px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+#sign-up-button4{
+		position: absolute;
+	width: 131px;
+	height: 65px;
+	left: 734px;
+	top: 2100px;
+	background: rgba(203, 203, 203, 0.33);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 100px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.01em;
 
+color: #000000;
 
-
+}
+#podtext1{
+		position: absolute;
+	width: 776px;
+	height: 666px;
+	left: 140px;
+	top: 1690px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	line-height: 66px;
+	letter-spacing: 0.194em;
+	white-space: pre;
+	color: rgba(67, 66, 66, 0.31);
+	z-index: -3;
+}
 
 
 
