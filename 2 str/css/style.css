@@ -316,7 +316,7 @@ color: #000000;
 }
 section#sale{
 	position: relative;
-	height: 650px;
+	height: 770px;
 }
 #salefoto{
 	position: absolute;
@@ -355,8 +355,8 @@ footer{
 	display: grid;
 	border: 1px solid red;
 	width: 1152px;
-	height: 500px;
-
+	height: 325px;
+	background: #F0F0F0;
 	text-decoration: none;
 	list-style: none;
 	margin: 0 auto;
@@ -373,25 +373,38 @@ footer#footer1#colum1{
 }
 #colum1{
 	position: absolute;
-	grid-template-columns: repeat(5,1fr) 330px;	
-	position: absolute;
 	width: 350px;
 	height: 136px;
-	left: 40px;
-	top: 0px;
-	
-
+	left: 80px;
+	line-height: 2em;
+	top: 25px;
 }
-footer#footer1#colum1 a{
+#colum1 hr{
+	position: relative;
+	left: -52px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+#colum1 h1{
+	position: relative;
+	left: 0px;
+	top: 10px;
+}
+footer#footer1 li a{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 17px;
 	color: #000000;
+	
 }
-
-
+footer li a{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
 
 
 
@@ -405,23 +418,54 @@ footer#footer1#colum1 a{
 
 #colum2{
 	position: absolute;
-	grid-template-columns: repeat(8, 1fr);
-	position: absolute;
-width: 350px;
-column-count: 2;
-height: 135px;
-left:540px;
-top: 0px;
+	width: 350px;
+	
+	height: 135px;
+	left:500px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum2 h1{
+	position: relative;
+	top: 10px;
+}
+#colum2 hr{
+position: relative;
+	left: -53px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+#colum li{
 
 }
 #colum3{
 	position: absolute;
-	right: 0px;
-	grid-template-columns: repeat(8, 1fr);
+	right: 20px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum3 h1{
+	position: relative;
+	top: 10px;
+}
+#colum3 hr{
+	position: relative;
+	left: -6px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+#colum3 a{
+	position: relative;
+	 display: grid;
+    grid-template-columns:10px 10px 10px 10px;
+	letter-spacing:2em;
 }
 .headfooter{
 	font-family: Montserrat;
 	font-style: normal;
+	letter-spacing: 2px;
 	font-weight: normal;
 	font-size: 24px;
 	line-height: 29px;
@@ -433,10 +477,18 @@ top: 0px;
 	width: 1152px;
 	height: 120px;
 	left: 0px;
-	top: 400px;
+	top: 150px;
+	color: white;
 }
 
-
+#contacts{
+	position: absolute;
+	color: white;
+	right: 40px;
+	top: 290px;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
 
 
 
