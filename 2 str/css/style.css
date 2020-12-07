@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: Montserrat;;
+    font-family: Montserrat;
 }
 section#home{
 	width: 1152px;
@@ -13,7 +13,7 @@ header{
     margin: 0 auto;
     display: grid;
 	grid-template-columns:270px auto;
-    border:1px solid red;
+    border:1px solid white;
 	color: #000000;
 	text-decoration: none;
 	list-style:none;
@@ -25,13 +25,14 @@ header nav ul{
 	text-decoration: none;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: 60px 100px 80px 103px 380px 50px 50px 50px;
 	list-style:none;
 }
 header nav ul li{
 	position:relative;
 	top:20px;
-    font-size: 16px;
+    font-size: 20px;
+font-family: Montserrat;
 }
 
 header nav ul li a{
@@ -52,7 +53,7 @@ header nav ul li a{
 	position: absolute;
 width: 462px;
 height: 213px;
-left: 100px;
+left: 130px;
 top: 330px;
 font-size: 95px;
 line-height: 110px;
@@ -345,7 +346,7 @@ color: #FFFFFF;
 
 section{
 	display: grid;
-	border: 1px solid red;
+	border: 1px solid white;
 	width: 1152px;
 	height: 550px;
 	margin: 0 auto;
@@ -353,7 +354,7 @@ section{
 footer{
 	position: relative;
 	display: grid;
-	border: 1px solid red;
+	border: 1px solid white;
 	width: 1152px;
 	height: 325px;
 	background: #F0F0F0;
@@ -436,6 +437,16 @@ position: relative;
 	height: 7px;
 	width: 250px;
 }
+.headerbottom ul{
+	position: relative;
+	list-style: none;
+	display: grid;
+	grid-template-columns:80px 120px 100px 130px 150px;
+	left: 10px;
+	top: -15px;
+	padding : 0px;
+}
+
 .headerbottom li a{
 position: relative;
 word-spacing: 10px;
@@ -468,9 +479,13 @@ color: white;
 	height: 7px;
 	width: 250px;
 }
-#colum3 a{
+#colum3 ul{
 	position: relative;
-	 
+	list-style: none;
+	display: grid;
+	grid-template-columns:40px 40px 40px 40px;
+	padding: 0px;
+	left: 20px;
 	letter-spacing:2em;
 }
 .headfooter{
