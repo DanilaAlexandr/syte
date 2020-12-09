@@ -51,31 +51,33 @@ header nav ul li a{
 }
 #autom{
 	position: absolute;
-width: 462px;
-height: 213px;
-left: 400px;
-top: 300px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
 font-size: 105px;
 line-height: 128px;
 text-align: center;
 
 color: #FFFFFF;
-
+width: 1007px;
+height: 137px;
+left: 140px;
+top: 420px;
+	white-space: pre;
 }
-
 #sign-up-button{
 	position: absolute;
-width: 173px;
-height: 64px;
-left: 251px;
-top: 651px;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-color: #FFFFFF;
-border: 2px solid #FFFFFF;
-box-sizing: border-box;
-background: none;
+	width: 173px;
+	height: 64px;
+	left: 550px;
+	top: 651px;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	background: none;
 }
 section#shoes{
 	position: relative;
@@ -111,7 +113,6 @@ font-size: 72px;
 line-height: 88px;
 text-align: center;
 letter-spacing: 0.115em;
-
 color: #000000;
 
 }
@@ -120,30 +121,30 @@ color: #000000;
 width: 220px;
 height: 67px;
 left: 32px;
-top: 500px;
+white-space: pre;
+top: 526px;
 font-style: normal;
 font-weight: normal;
-font-size: 60px;
+font-size: 46px;
 line-height: 73px;
 text-align: center;
 letter-spacing: 0.01em;
-
-color: #FFFFFF;
+color: #000000;
 }
 #vtorfoto{
 position: absolute;
 width: 220px;
 height: 73px;
 left: 642px;
-top: 554px;
+top: 582px;
 font-style: normal;
 font-weight: normal;
-font-size: 60px;
+font-size: 46px;
 line-height: 73px;
 text-align: center;
 letter-spacing: 0.01em;
-
-color: #FFFFFF;
+white-space: pre;
+color: #000000;
 }
 #sign-up-button1{
 position: absolute;
@@ -157,8 +158,8 @@ width: 131px;
 height: 65px;
 left: 79px;
 top: 623px;
-background: rgba(203, 203, 203, 0.33);
-border: 1px solid #FFFFFF;
+background: rgba(217, 135, 135, 0.33);
+border: 1px solid #000000;
 box-sizing: border-box;
 border-radius: 100px;
 }
@@ -173,8 +174,8 @@ width: 131px;
 height: 65px;
 left: 677px;
 top: 680px;
-background: rgba(203, 203, 203, 0.33);
-border: 1px solid #FFFFFF;
+background: rgba(217, 135, 135, 0.33);
+border: 1px solid #000000;
 box-sizing: border-box;
 border-radius: 100px;
 }
@@ -184,11 +185,13 @@ width: 772px;
 height: 743px;
 left: 54px;
 top: 200px;
+font-family: Roboto;
+line-height: 66px;
+letter-spacing: 0.194em;
+color: #F6F6F6;
 font-size: 46px;
 white-space: pre;
 line-height: 66px;
-letter-spacing: 0.1em;
-color: #FFAA01;
 z-index: -5;
 }
 
@@ -305,12 +308,12 @@ color: #000000;
 		position: absolute;
 	width: 776px;
 	height: 666px;
-	left: 68px;
-	top: 190px;
+	left: 89px;
+	top: 220px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 56px;
+	font-size: 42px;
 	line-height: 66px;
 	letter-spacing: 0.194em;
 	white-space: pre;
