@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+header{
+	position: relative;
+    height: 150px;
+    width: 1152px;
+    margin: 0 auto;
+    display: grid;
+	grid-template-columns:270px auto;
+    border:1px solid white;
+	color: #000000;
+	text-decoration: none;
+	list-style:none;
+}
+header nav{
+	list-style:none;
+}
+header nav ul{
+	text-decoration: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 60px 100px 80px 103px 380px 50px 50px 50px;
+	list-style:none;
+}
+header nav ul li{
+	position:relative;
+	top:20px;
+    font-size: 20px;
+	font-family: Montserrat;
+}
+
+header nav ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#logo{
+	position: relative;
+	top: 30px;
+}
+section#help{
+	position: relative;
+	width: 1152px;
+	height: 100px;
+}
+section#cont{
+	position: relative;
+	display: grid;
+	width: 1152px;
+	height: 800px;
+	margin: 0 auto;
+}
+.contact{
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+}
+#products{
+	position: absolute;
+	left:0px;
+	top: 0px;
+	white-space: pre;
+	font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+}
+section#cont .fotocontact{
+	position: absolute;
+	top: 30px;
+	left: 250px;
+}
+
+
+#nrc{
+	position: absolute;
+	left: 450px;
+	top: 0px;
+	white-space: pre;
+		font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+
+}
+#info{
+	position: absolute;
+	left: 780px;
+	top: 0px;
+	white-space: pre;	
+	font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+
+
+}
+#orders{
+	position: absolute;
+	left: 120px;
+	top: 500px;
+	white-space: pre;
+		font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+
+}
+#locator{
+	position: absolute;
+	left: 450px;
+	top: 500px;
+	white-space: pre;
+		font-family: Monda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	color: #000000;
+
+}
+section#model{
+	position: relative;
+	height: 600px;
+	border: 1px solid black;
+}
+#titlimodle{
+	position: absolute;
+width: 226px;
+height: 88px;
+left: 450px;
+top: 0px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 88px;
+color: #000000;
+}
+#foto1{
+	position: absolute;
+width: 266px;
+height: 315px;
+left: 0px;
+top: 200px;
+}
+#foto2{
+	position: absolute;
+width: 266px;
+height: 315px;
+left: 286px;
+top: 200px;
+}
+#foto3{
+position: absolute;
+width: 263px;
+height: 315px;
+left: 572px;
+top: 200px;
+}
+#foto4{
+	position: absolute;
+width: 266px;
+height: 315px;
+left: 858px;
+top: 200px;
+}
+section{
+	display: grid;
+
+	width: 1152px;
+	height: 800px;
+	margin: 0 auto;
+}
+footer{
+	position: relative;
+	display: grid;
+	border: 1px solid red;
+	width: 1152px;
+	height: 325px;
+	background: #F0F0F0;
+	text-decoration: none;
+	list-style: none;
+	margin: 0 auto;
+}
+
+footer#footer1#colum1{
+	position: absolute;
+	background: black;
+	display: grid;
+	width: 1152px;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+}
+#colum1{
+	position: absolute;
+	width: 350px;
+	height: 136px;
+	left: 80px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum1 hr{
+	position: relative;
+	left: -52px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+#colum1 h1{
+	position: relative;
+	left: 0px;
+	top: 10px;
+}
+footer#footer1 li a{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+footer .lin{
+position: absolute;
+width: 1152px;
+height: 3px;
+left: 0px;
+top: -80px;
+border: black;
+background: #000000;
+}
+footer li a{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+
+#colum2{
+	position: absolute;
+	width: 350px;
+	
+	height: 135px;
+	left:500px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum2 h1{
+	position: relative;
+	top: 10px;
+}
+#colum2 hr{
+position: relative;
+	left: -53px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+.headerbottom ul{
+	position: relative;
+	list-style: none;
+	display: grid;
+	grid-template-columns:80px 120px 100px 130px 150px;
+	left: 10px;
+	top: -15px;
+	padding : 0px;
+}
+
+.headerbottom li a{
+	position: relative;
+	word-spacing: 10px;
+	left: 300px;
+	top: 43px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 32px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+
+}
+#colum3{
+	position: absolute;
+	right: 20px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum3 h1{
+	position: relative;
+	top: 10px;
+}
+#colum3 hr{
+	position: relative;
+	left: -6px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+#colum3 ul{
+	position: relative;
+	list-style: none;
+	display: grid;
+	grid-template-columns:40px 40px 40px 40px;
+	padding: 0px;
+	left: 20px;
+	letter-spacing:2em;
+}
+.headfooter{
+	font-family: Montserrat;
+	font-style: normal;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+.headerbottom{
+	position: relative;
+	background: black;
+	width: 1152px;
+	height: 120px;
+	left: 0px;
+	display: flex;
+	top: 150px;
+	
+	color: white;
+}
+#logomenu{
+	position: absolute;
+	left: 50px;
+	top: 25px;
+}
+
+#contacts{
+	position: absolute;
+	color: white;
+	right: 40px;
+	top: 278px;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+
+
+
+
+
+
+
+
