@@ -43,8 +43,28 @@ header nav ul li a{
 section#help{
 	position: relative;
 	width: 1152px;
-	height: 100px;
+	height: 150px;
 }
+#helps{
+	position: absolute;
+	left: 450px;
+	top: 0px;
+}
+section#help h1{
+	position: absolute;
+	left: 25px;
+	top: -50px;
+	white-space: pre;
+	font-size: 40px;
+}
+#helps form{
+	position: relative;
+	top: 30px;
+	left: 0px;
+}
+
+
+
 section#cont{
 	position: relative;
 	display: grid;
@@ -58,8 +78,8 @@ box-sizing: border-box;
 }
 #products{
 	position: absolute;
-	left:0px;
-	top: 0px;
+	left:100px;
+	top: 80px;
 	white-space: pre;
 	font-family: Monda;
 	font-style: normal;
@@ -69,31 +89,42 @@ box-sizing: border-box;
 	text-align: center;
 	color: #000000;
 }
-section#cont .fotocontact{
+section#cont .fotocontact1{
 	position: absolute;
-	top: 30px;
-	left: 250px;
+	top: 50px;
+	left: 100px;
+}
+section#cont .fotocontact2{
+	position: absolute;
+	top: 50px;
+	left: 530px;
 }
 
 
 #nrc{
 	position: absolute;
-	left: 450px;
-	top: 0px;
+	left: 0px;
+	top: 80px;
 	white-space: pre;
-		font-family: Monda;
+	font-family: Monda;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
 	line-height: 39px;
 	text-align: center;
 	color: #000000;
+	width: 100%;
 
+}
+section#cont .fotocontact3{
+	position: absolute;
+	top: 50px;
+	left: 130px;
 }
 #info{
 	position: absolute;
-	left: 780px;
-	top: 0px;
+	left: 740px;
+	top: 80px;
 	white-space: pre;	
 	font-family: Monda;
 	font-style: normal;
@@ -105,12 +136,17 @@ section#cont .fotocontact{
 
 
 }
+section#cont .fotocontact4{
+	position: absolute;
+	top: 50px;
+	left: 90px;
+}
 #orders{
 	position: absolute;
-	left: 120px;
-	top: 500px;
+	left: 100px;
+	top: 410px;
 	white-space: pre;
-		font-family: Monda;
+	font-family: Monda;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
@@ -118,11 +154,16 @@ section#cont .fotocontact{
 	text-align: center;
 	color: #000000;
 
+}
+section#cont .fotocontact5{
+position: absolute;
+top: 25px;
+left:130px;
 }
 #locator{
 	position: absolute;
-	left: 450px;
-	top: 500px;
+	left: 400px;
+	top: 410px;
 	white-space: pre;
 		font-family: Monda;
 	font-style: normal;
@@ -131,18 +172,18 @@ section#cont .fotocontact{
 	line-height: 39px;
 	text-align: center;
 	color: #000000;
-
 }
+
 section#model{
 	position: relative;
 	height: 600px;
-	border: 1px solid black;
+	
 }
 #titlimodle{
 	position: absolute;
 width: 226px;
 height: 88px;
-left: 450px;
+left: 470px;
 top: 0px;
 font-family: Montserrat;
 font-style: normal;
@@ -155,28 +196,28 @@ color: #000000;
 	position: absolute;
 width: 266px;
 height: 315px;
-left: 0px;
+left: 10px;
 top: 200px;
 }
 #foto2{
 	position: absolute;
 width: 266px;
 height: 315px;
-left: 286px;
+left: 296px;
 top: 200px;
 }
 #foto3{
 position: absolute;
 width: 263px;
 height: 315px;
-left: 572px;
+left: 582px;
 top: 200px;
 }
 #foto4{
 	position: absolute;
 width: 266px;
 height: 315px;
-left: 858px;
+left: 868px;
 top: 200px;
 }
 section{
@@ -189,7 +230,7 @@ section{
 footer{
 	position: relative;
 	display: grid;
-	border: 1px solid red;
+
 	width: 1152px;
 	height: 325px;
 	background: #F0F0F0;
@@ -197,6 +238,7 @@ footer{
 	list-style: none;
 	margin: 0 auto;
 }
+
 
 footer#footer1#colum1{
 	position: absolute;
@@ -360,6 +402,31 @@ position: relative;
 
 
 
+* {box-sizing: border-box;}
+form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #393838;
+  background:  rgba(234, 228, 228, 0.2);;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+input:focus{
+  width: 300px;
+}
 
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
 
 
