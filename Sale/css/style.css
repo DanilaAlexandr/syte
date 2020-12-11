@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: Montserrat;
+    height: 2000px;
 }
 header{
 	position: relative;
@@ -41,7 +42,6 @@ header nav ul li a{
 	top: 30px;
 }
 section{
-	position: relative;
 	display: grid;
 	width: 1152px;
 	height: 800px;
@@ -50,7 +50,7 @@ section{
 footer{
 	position: relative;
 	display: grid;
-
+	top: -1000px;
 	width: 1152px;
 	height: 325px;
 	background: #F0F0F0;
@@ -81,7 +81,7 @@ section#sale10 p{
 	top: -55px;
 }
 section#menuleft h1{
-	font-family: Montserrat;
+	font-family: Monda;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
@@ -91,8 +91,9 @@ section#menuleft h1{
 	color: #000000;
 }
 section#menuleft h2{
-	font-family: Montserrat;
+	font-family: Monda;
 font-style: normal;
+list-style: none;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
@@ -115,7 +116,11 @@ section#menuleft{
 	height: 1100px;
 
 }
+section#menuleft table{
+	position: relative;
+	align-content: center;
 
+}
 
 section#fotoshop{
 	position: relative;
@@ -141,6 +146,51 @@ line-height: 20px;
 text-align: center;
 letter-spacing: 0.01em;
 color: #000000;
+}
+#button1{
+	position: absolute;
+	left: 245px;
+	top: 312px;
+}
+#button2{
+	position: absolute;
+	left: 580px;
+	top: 312px;
+}
+#button3{
+	position: absolute;
+	left: 915px;
+	top: 312px;
+}
+#button4{
+	position: absolute;
+	left: 245px;
+	top: 690px;
+}
+#button5{
+	position: absolute;
+	left: 580px;
+	top: 690px;
+}
+#button6{
+	position: absolute;
+	left: 915px;
+	top: 690px;
+}
+#button7{
+	position: absolute;
+	left: 245px;
+	top: 1065px;
+}
+#button8{
+	position: absolute;
+	left: 580px;
+	top: 1065px;
+}
+#button9{
+	position: absolute;
+	left: 915px;
+	top: 1065px;
 }
 
 footer#footer1#colum1{
@@ -393,5 +443,3 @@ section#menuleft .colorr ul li{
 	background: grey;
     }
 
-
-section
