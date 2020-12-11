@@ -41,8 +41,8 @@ header nav ul li a{
 	top: 30px;
 }
 section{
+	position: relative;
 	display: grid;
-	border: 1px solid ;
 	width: 1152px;
 	height: 800px;
 	margin: 0 auto;
@@ -103,12 +103,12 @@ color: #000000;
 }
 section#menuleft hr{
 	position: absolute;
-	width: 250px;
+	width: 200px;
 	left: 30px;
 }
 section#menuleft{
 	position: relative;
-	width: 300px;
+	width: 245px;
 	left: 0px;
 	margin: 0;
 
@@ -116,13 +116,31 @@ section#menuleft{
 
 }
 
+
 section#fotoshop{
 	position: relative;
-	left: 300px;
+	left: 245px;
 	top: -1100px;
 	margin: auto 0px;
 	width: 950px;
 	height: 1300px;
+}
+section#fotoshop button{
+position: absolute;
+background: rgba(203, 203, 203, 0.33);
+width: 79px;
+height: 43px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 100px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #000000;
 }
 
 footer#footer1#colum1{
