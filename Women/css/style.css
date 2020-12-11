@@ -43,6 +43,7 @@ header nav ul li a{
 #logo{
 	position: relative;
 	top: 30px;
+	left: 60px;
 
 }
 .foto{
@@ -355,6 +356,10 @@ section{
 	width: 1152px;
 	height: 550px;
 	margin: 0 auto;
+}
+footer ul{
+	list-style: none;
+	text-decoration: none;
 }
 footer{
 	position: relative;

@@ -40,6 +40,7 @@ header nav ul li a{
 #logo{
 	position: relative;
 	top: 30px;
+	left: 60px;
 }
 section{
 	display: grid;
@@ -354,6 +355,10 @@ position: relative;
 section#menuleft .colorr ul li{
 	list-style: none;
 	text-decoration: none;
+}
+footer ul{
+	text-decoration: none;
+	list-style: none;
 }
 #list{
  list-style: none;

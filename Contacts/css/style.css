@@ -277,6 +277,10 @@ footer#footer1 li a{
 	line-height: 17px;
 	color: #000000;
 }
+footer ul{
+	list-style: none;
+	text-decoration: none;
+}
 footer .lin{
 position: absolute;
 width: 1152px;
