@@ -1,0 +1,490 @@
+body{
+
+}
+
+
+header{
+	position: absolute;
+	display: grid;
+	
+	width: 1152px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+header{
+	position: relative;
+    height: 100px;
+    width: 1152px;
+    margin: 0 auto;
+    display: grid;
+	grid-template-columns:270px auto;
+    border:1px solid white;
+	color: #000000;
+	text-decoration: none;
+	list-style:none;
+}
+header nav{
+	list-style:none;
+}
+header nav ul{
+	text-decoration: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 60px 100px 80px 103px 380px 50px 50px 50px;
+	list-style:none;
+}
+header nav ul li{
+	position:relative;
+	top:20px;
+    font-size: 20px;
+	font-family: Montserrat;
+}
+
+header nav ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+#logo{
+	position: relative;
+	top: 30px;
+	left: 60px;
+}
+section#home{
+	position: relative;
+
+}
+#per{
+	position: absolute;
+	width: 1127px;
+	height: 200px;
+	left: 60px;
+	top: 50px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 164px;
+	line-height: 200px;
+	letter-spacing: 0.1em;
+	color: #FFCA0F;
+}
+#vto{
+	position: absolute;
+	width: 539px;
+	height: 50px;
+	left: 264px;
+	top: 320px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 41px;
+	line-height: 50px;
+	letter-spacing: 0.36em;
+	color: #FFC700;
+}
+#sign-up-button{
+	position: absolute;
+	width: 173px;
+	height: 64px;
+	left: 430px;
+	top: 410px;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.1em;
+	color: #FFCA0F;
+	background: none;
+}
+section#collection{
+	position: relative;
+	height: 800px;
+
+}
+#img-man{
+	position: absolute;
+	width: 422px;
+	height: 554px;	
+	left: 100px;
+	top: 64px;
+	z-index: 1;
+
+}
+#img-women{
+position: absolute;
+width: 422px;
+height: 554px;
+right:  100px;
+z-index: 1;
+top: 105px;
+}
+#mancollection{
+	position: absolute;
+width: 126px;
+height: 66px;
+left: -50px;
+top: 493px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 66px;
+color: #000000;
+transform: rotate(-90deg);
+list-style: none;
+text-decoration: none;
+}
+#womencollection{
+		position: absolute;
+	width: 215px;
+	height: 66px;
+	list-style: none;
+	text-decoration: none;
+	right: 10px;
+	top: 150px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	line-height: 66px;
+	color: #000000;
+	transform: rotate(-90deg);
+}
+#years{
+		position: absolute;
+	width: 450px;
+	height: 234px;
+	left: 360px;
+	top: -170px;
+	z-index: 2;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 200px;
+	line-height: 234px;
+	color: #000000;
+}
+#newnewnew{	
+	position: absolute;
+	width: 393px;
+	height: 594px;
+	left: 320px;
+	top: 150px;
+	z-index: -1;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	word-spacing: 10px;
+	font-size: 56px;
+	line-height: 66px;
+	color: rgba(180, 180, 180, 0.46);
+}
+section#inst{
+	position: relative;
+	height: 400px;
+}
+#instaEASYLIFE{
+	position: absolute;
+	width: 293px;
+	height: 48px;
+	left: 403px;
+	top: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	line-height: 48px;
+	color: #000000;
+}
+section#inst table{
+	position: absolute;
+	top: 120px;
+	left: 25px;
+}
+section#ourbrand{
+	position: relative;
+	height: 800px;
+}
+#img-our-brand{
+	position: absolute;
+	width: 592px;
+	height: 610px;
+	left: 50px;
+	top: 30px;
+}
+#header-our-brand{
+	position: absolute;
+	width: 368px;
+height: 97px;
+left: 472px;
+top: 5px;
+white-space: pre;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 83px;
+line-height: 97px;
+
+color: #000000;
+}
+#text-our-brand{
+	position: absolute;
+	width: 456px;
+height: 165px;
+left: 580px;
+top: 150px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 126.19%;
+/* or 18px */
+
+letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+#fashion-our-brand{
+	position: absolute;
+	width: 474px;
+height: 462px;
+left: 294px;
+top: 230px;
+z-index: -1;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 66px;
+
+color: rgba(180, 180, 180, 0.46);
+
+}
+#video-our-brand{
+	position: absolute;
+width: 216px;
+height: 100px;
+right: 50px;
+top: 450px;
+
+}
+#instagram-our-brand{
+position: absolute;
+right: 280px;
+top: 480px;
+}
+#facebook-our-brand{
+position: absolute;
+right: 280px;
+top:510px;
+}
+#watch-our-brand{
+	position: absolute;
+	width: 110px;
+height: 23px;
+right: 140px;
+top: 400px;
+white-space: pre;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+}
+section{
+	display: grid;
+	
+	width: 1152px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+footer{
+	display: grid;
+	
+	width: 1152px;
+	height: 400px;
+	margin: 0 auto;
+}
+footer{
+	position: relative;
+	display: grid;
+
+	width: 1152px;
+	height: 325px;
+	background: #F0F0F0;
+	text-decoration: none;
+	list-style: none;
+	margin: 0 auto;
+}
+
+
+footer#footer1#colum1{
+	position: absolute;
+	background: black;
+	display: grid;
+	width: 1152px;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+}
+#colum1{
+	position: absolute;
+	width: 350px;
+	height: 136px;
+	left: 80px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum1 hr{
+	position: relative;
+	left: -67px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+#colum1 h1{
+	position: relative;
+	left: 0px;
+	top: 10px;
+}
+footer#footer1 li a{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+footer ul{
+	list-style: none;
+	text-decoration: none;
+}
+footer .lin{
+position: absolute;
+width: 1152px;
+height: 3px;
+left: 0px;
+top: -80px;
+border: black;
+background: #000000;
+}
+footer li a{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+
+#colum2{
+	position: absolute;
+	width: 350px;
+	
+	height: 135px;
+	left:500px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum2 h1{
+	position: relative;
+	top: 10px;
+}
+#colum2 hr{
+position: relative;
+	left: -70px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+.headerbottom ul{
+	position: relative;
+	list-style: none;
+	display: grid;
+	grid-template-columns:80px 120px 100px 130px 150px;
+	left: 10px;
+	top: -15px;
+	padding : 0px;
+}
+
+.headerbottom li a{
+	position: relative;
+	word-spacing: 10px;
+	left: 300px;
+	top: 43px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 32px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+
+}
+#colum3{
+	position: absolute;
+	right: 20px;
+	line-height: 2em;
+	top: 25px;
+}
+#colum3 h1{
+	position: relative;
+	top: 10px;
+}
+#colum3 hr{
+	position: relative;
+	left: 6px;
+	background: #FFFFFF;
+	height: 7px;
+	width: 250px;
+}
+#colum3 ul{
+	position: relative;
+	list-style: none;
+	display: grid;
+	grid-template-columns:40px 40px 40px 40px;
+	padding: 0px;
+	left: 20px;
+	letter-spacing:2em;
+}
+.headfooter{
+	font-family: Montserrat;
+	font-style: normal;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+.headerbottom{
+	position: relative;
+	background: black;
+	width: 1152px;
+	height: 120px;
+	left: 0px;
+	display: flex;
+	top: 150px;
+	
+	color: white;
+}
+#logomenu{
+	position: absolute;
+	left: 50px;
+	top: 25px;
+}
+
+#contacts{
+	position: absolute;
+	color: white;
+	right: 40px;
+	top: 278px;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+
+
